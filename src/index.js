@@ -1,7 +1,6 @@
-import { saludar } from './js/componentes.js';
 import './styles.css';
-import img from './assets/webpack.png';
+import { Todo } from './classes/todo.class.js';
 
-const nombre = 'Hector';
+const tarea = new Todo('Aprender Javascript');
 
-saludar(nombre);
+console.log(tarea);
